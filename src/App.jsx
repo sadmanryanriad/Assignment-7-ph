@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Cart from './components/Cart'
 import Courses from './components/Courses'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -16,7 +18,7 @@ function App() {
       let num = course.credit_hour;
       let num2 = course.price;
 
-      if(isExist) return alert('already added');
+      if(isExist) return toast('Already added');
 
       else{
         cart.forEach(item => {
@@ -24,7 +26,7 @@ function App() {
           num2 += item.price;
         });
       }
-      if(num>20) return alert('credit limit exceeded');
+      if(num>20) return toast('Credit limit exceeded');
       setTotalHour(num);
       setTotalPrice(num2);
 
@@ -37,9 +39,10 @@ function App() {
       Course Registration
     </h1>
 
-
+    
     <div className='flex flex-col md:flex-row md:justify-between max-w-[1400px] mx-auto'>
     <Courses handleCartButton={handleCartButton}></Courses>
+    <ToastContainer />
     <Cart cart={cart} totalHour={totalHour} totalPrice={totalPrice}></Cart>
     </div>
     </>
