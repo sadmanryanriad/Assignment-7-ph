@@ -8,8 +8,7 @@ function App() {
     const [cart,setCart] = useState([]);
 
     const handleCartButton = (course) =>{
-      console.log(course.id);
-      setCart([...cart, course.id]);
+      setCart([...cart, course]);
     }
 
   return (
