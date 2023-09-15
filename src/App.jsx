@@ -1,10 +1,16 @@
+import { useState } from 'react'
 import './App.css'
 import Cart from './components/Cart'
 import Courses from './components/Courses'
 
-
-
 function App() {
+
+    const [cart,setCart] = useState([]);
+
+    const handleCartButton = (course) =>{
+      console.log(course.id);
+      setCart([...cart, course.id]);
+    }
 
   return (
     <>
@@ -14,8 +20,8 @@ function App() {
 
 
     <div className='flex flex-col md:flex-row md:justify-between max-w-[1400px] mx-auto'>
-    <Courses></Courses>
-    <Cart></Cart>
+    <Courses handleCartButton={handleCartButton}></Courses>
+    <Cart cart={cart}></Cart>
     </div>
     </>
   )

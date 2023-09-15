@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types'; // ES6
 import { FaDollarSign, FaBook, } from 'react-icons/fa';
 
-const Course = ({ course }) => {
-
-    console.log(course);
+const Course = ({ course,handleCartButton }) => {
 
     return (
         <div className="card w-80 bg-base-100 shadow-xl p-4 mx-auto md:mx-0">
@@ -23,14 +21,15 @@ const Course = ({ course }) => {
                         <span className='text-base'>{course.credit_hour}hr</span>
                     </div>
                 </div>
-                <button className='btn bg-[#2F80ED] w-full text-white text-lg'>Select</button>
+                <button onClick={()=>handleCartButton(course)} className='btn bg-[#2F80ED] w-full text-white text-lg'>Select</button>
             </div>
         </div>
     );
 };
 
 Course.propTypes = {
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    handleCartButton: PropTypes.func.isRequired
 }
 
 export default Course;
