@@ -1,12 +1,20 @@
 import './App.css'
+import Cart from './components/Cart'
+import Courses from './components/Courses'
 
 function App() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold">
+    <h1 className="text-4xl font-bold text-center py-12">
       Course Registration
     </h1>
+
+
+    <div className='flex justify-between max-w-[1400px] mx-auto'>
+    <Courses></Courses>
+    <Cart></Cart>
+    </div>
     </>
   )
 }

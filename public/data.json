@@ -1,0 +1,77 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Introduction to C Programming",
+        "img": "https://i.ibb.co/1qtWS68/rec1.png",
+        "credit_hour": 3,
+        "price": 7.99,
+        "details": "Learn C fundamentals: efficient, error-free code."
+      },
+      {
+        "id": 2,
+        "title": "Introduction to Algorithms",
+        "img": "https://i.ibb.co/sw1tpLY/rec2.png",
+        "credit_hour": 4,
+        "price": 9.99,
+        "details": "Master problem-solving and algorithm design."
+      },
+      {
+        "id": 3,
+        "title": "Introduction to C++ for DSA",
+        "img": "https://i.ibb.co/1Xp9NXP/rec3.png",
+        "credit_hour": 5,
+        "price": 8.99,
+        "details": "C++ basics for Data Structures and Algorithms."
+      },
+      {
+        "id": 4,
+        "title": "Basic Data Structures",
+        "img": "https://i.ibb.co/bFBBrcv/rec4.png",
+        "credit_hour": 3,
+        "price": 6.99,
+        "details": "Explore core data structures effectively."
+      },
+      {
+        "id": 5,
+        "title": "Introduction to OOP Python",
+        "img": "https://i.ibb.co/vZnmDmP/rec5.png",
+        "credit_hour": 4,
+        "price": 7.99,
+        "details": "Discover Python OOP for maintainable code."
+      },
+      {
+        "id": 6,
+        "title": "Software Engineering",
+        "img": "https://i.ibb.co/mHw2Lt5/rec6.png",
+        "credit_hour": 6,
+        "price": 9.99,
+        "details": "Comprehensive guide to software development lifecycle."
+      },
+      {
+        "id": 7,
+        "title": "AWS, Cloud Computing",
+        "img": "https://i.ibb.co/zSQSTWS/rec7.png",
+        "credit_hour": 5,
+        "price": 8.99,
+        "details": "Explore AWS for scalable application deployment."
+      },
+      {
+        "id": 8,
+        "title": "Database (MySQL)",
+        "img": "https://i.ibb.co/GcRVzKH/rec8.png",
+        "credit_hour": 4,
+        "price": 7.99,
+        "details": "Master MySQL for effective database management."
+      },
+      {
+        "id": 9,
+        "title": "Problem-Solving Part",
+        "img": "https://i.ibb.co/dKvNy0k/rec9.png",
+        "credit_hour": 2,
+        "price": 5.99,
+        "details": "Enhance problem-solving skills with various techniques."
+      }
+    ]
+  }
+  
