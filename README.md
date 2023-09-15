@@ -1,8 +1,15 @@
-# React + Vite
+# Top 3 project feature
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This is a fully Responsive website.
+- Images are hosted from web server.
+- Functionality: remaining credit hour, total price, total credit hour.
 
-Currently, two official plugins are available:
+When you add one course multiple times then the system will show you a toast.<br> Also when the credit limit in the cart is exceeded, it will show a toast.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How I managed the state in my Assignment
+I used 3 state function in this project. For:
+- cart
+- totalHour
+- totalPrice
+
+cart state is handled through a function named 'handleCartButton'. The technique i used to pass props from child component to parent is called 'state lifting'. This is an amazing concept.
