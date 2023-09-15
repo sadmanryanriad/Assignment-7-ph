@@ -2,6 +2,8 @@ import './App.css'
 import Cart from './components/Cart'
 import Courses from './components/Courses'
 
+
+
 function App() {
 
   return (

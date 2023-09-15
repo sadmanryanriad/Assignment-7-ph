@@ -1,5 +1,4 @@
-{
-    "courses": [
+[
       {
         "id": 1,
         "title": "Introduction to C Programming",
@@ -30,7 +29,7 @@
         "img": "https://i.ibb.co/bFBBrcv/rec4.png",
         "credit_hour": 3,
         "price": 6.99,
-        "details": "Explore core data structures effectively."
+        "details": "Explore core data structures more effectively."
       },
       {
         "id": 5,
@@ -73,5 +72,3 @@
         "details": "Enhance problem-solving skills with various techniques."
       }
     ]
-  }
-  
