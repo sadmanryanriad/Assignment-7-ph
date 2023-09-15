@@ -2,8 +2,7 @@ import { FaDollarSign, FaBook, } from 'react-icons/fa';
 
 const Course = () => {
     return (
-        <div>
-            <div className="card w-80 bg-base-100 shadow-xl p-4">
+            <div className="card w-80 bg-base-100 shadow-xl p-4 mx-auto md:mx-0">
                 <figure className="">
                     <img src="https://i.ibb.co/1qtWS68/rec1.png" alt="Course thumbnail" className="rounded-xl w-72" />
                 </figure>
@@ -23,7 +22,6 @@ const Course = () => {
                     <button className='btn bg-[#2F80ED] w-full text-white text-lg'>Select</button>
                 </div>
             </div>
-        </div>
     );
 };
 

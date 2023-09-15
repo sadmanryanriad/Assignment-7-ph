@@ -11,7 +11,7 @@ function App() {
     </h1>
 
 
-    <div className='flex justify-between max-w-[1400px] mx-auto'>
+    <div className='flex flex-col md:flex-row md:justify-between max-w-[1400px] mx-auto'>
     <Courses></Courses>
     <Cart></Cart>
     </div>

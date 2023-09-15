@@ -1,6 +1,6 @@
 const Cart = () => {
     return (
-        <div className="md:w-1/4 w-80 h-max rounded-xl shadow-xl p-6 ">
+        <div className="md:w-1/4 w-80 h-max rounded-xl shadow-xl p-6 mx-auto md:mx-0">
             <h2 className="text-[#2F80ED] text-xl font-bold py-6 border-b-2">Credit Hour Remaining 7 hr</h2>
             <h2 className="text-xl font-bold my-5 ">Course Name</h2>
             <ol className="list-decimal list-inside">
